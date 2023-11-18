@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer  {
+    *{
+        font-family: Montserrat,sans-serif!important
+    }
+  .navbar {
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    animation: fadeInDown 1s ease-out;
+    transition: all 0.3s ease ;
+    background: #fff;
+    margin-top: 0 !important;
+  }
+
+  .navbar1{
+    position: relative;
+    background-color: transparent;
+  }
+}
+
+@keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-220px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
