@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @layer  {
-    *{
-        font-family: Montserrat,sans-serif!important
-    }
+   
   .navbar {
     box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05);
     position: fixed;
@@ -18,19 +16,44 @@
     margin-top: 0 !important;
   }
 
+  
   .navbar1{
     position: relative;
     background-color: transparent;
   }
 }
 
-@keyframes fadeInDown {
-    0% {
-      opacity: 0;
-      transform: translateY(-220px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
+.loader {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+
+.font-heading {
+  font-family: Poppins,sans-serif!important;
+}
+
+.lineheight{
+  line-height: 68px !important;
+}
+
+@keyframes mover {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
+
+  to {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes fadeInDown {
+  0%{
+    transform: translateY(-220px);
+  }
+
+  100%{
+    transform: translateY(0);
+  }
+}

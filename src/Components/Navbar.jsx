@@ -40,17 +40,18 @@ const Navbar = () => {
                                                     <li className="">
                                                         <Link to="/" className='mt-4'>Landing Page 1</Link>
                                                     </li>
+                                                   
                                                     <li className="">
-                                                        <Link to="/">Landing Page 1</Link>
+                                                        <Link to="/">Landing Page 2</Link>
                                                     </li>
                                                     <li className="">
-                                                        <Link to="/">Landing Page 1</Link>
+                                                        <Link to="/">Landing Page 3</Link>
                                                     </li>
                                                     <li className="">
-                                                        <Link to="/">Landing Page 1</Link>
+                                                        <Link to="/">Landing Page 4</Link>
                                                     </li>
                                                     <li className="">
-                                                        <Link to="/">Landing Page 1</Link>
+                                                        <Link to="/">Landing Page 5</Link>
                                                     </li>
 
                                                 </ul>
