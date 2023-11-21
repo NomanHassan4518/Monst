@@ -1,8 +1,9 @@
 import React from 'react'
 import { Typewriter } from "react-simple-typewriter";
-import { Link as Scroll } from 'react-scroll';
+import { Link} from 'react-scroll';
 import Counter from '../Counter';
 import KeyFeatures from './KeyFeatures';
+import HowWork from './HowWork';
 
 const Landing1 = () => {
   return (
@@ -16,7 +17,7 @@ const Landing1 = () => {
               <h1 style={{ margin: "auto 0", fontWeight: "normal" }}>
                 <Typewriter
                   words={["Web Agency", "Social Marketing"]}
-                  // loop={5}
+                  loop={Infinity}
                   cursor
                   cursorStyle="|"
                   typeSpeed={400}
@@ -28,25 +29,27 @@ const Landing1 = () => {
             </div>
 
             <div className='flex items-center justify-center space-x-2 text-sm mt-3'>
-              <button className='py-3 px-8 rounded font-bold bg-blue-500 hover:bg-blue-700 text-white transition-transform transform hover:translate-y-[-2px]'>
-                <Scroll
-                  to='#key-features'
+              <button className=' transition-transform transform hover:translate-y-[-2px]'>
+                <Link
+                  to='key-features'
+                  className='py-3 px-8 rounded font-bold bg-blue-500 hover:bg-blue-700 text-white'
                   smooth={true}
-                  offset={50}
-                  duration={200}
+                  offset={10}
+                  duration={3000}
                 >
                   Key Features
-                </Scroll>
+                </Link>
               </button>
-              <button className='py-3 px-8 rounded font-bold bg-white text-black transition-transform transform hover:translate-y-[-2px]'>
-                <Scroll
-                  to='#key-features'
+              <button className='transition-transform transform hover:translate-y-[-2px]'>
+                <Link
+                  to='work'
+                  className='py-3 px-8 rounded font-bold bg-white text-black '
                   smooth={true}
                   offset={50}
-                  duration={200}
+                  duration={3000}
                 >
                   How we work?
-                </Scroll>
+                </Link>
               </button>
 
             </div>
@@ -67,6 +70,10 @@ const Landing1 = () => {
 
       <div>
         <KeyFeatures/>
+      </div>
+
+      <div>
+        <HowWork/>
       </div>
     </>
 

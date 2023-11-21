@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing1 from "./Components/Home/Landing1";
 import Navbar from "./Components/Navbar";
 import Loader from "./Components/Loader";
-import KeyFeatures from "./Components/Home/KeyFeatures";
 
 function App() {
   let [loading, setLoading] = useState(true);
@@ -35,8 +34,6 @@ function App() {
     window.removeEventListener("scroll", handleScroll)
   }
  })
-
-
   
   return (
     <div className="relative">
@@ -52,7 +49,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Landing1 />}></Route>
-            <Route path="#key-features" element={<KeyFeatures />}></Route>
+            {/* <Route path="/#key-features" element={<KeyFeatures />}></Route> */}
           </Routes>
         </BrowserRouter>
       )}

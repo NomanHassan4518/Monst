@@ -2,7 +2,7 @@ import React from 'react'
 
 const KeyFeatures = () => {
   return (
-    <section id='#key-features' className='mt-32 px-20 '>
+    <section id='key-features' className='mt-32 px-20 '>
       <div className="flex flex-wrap lg:flex-nowrap">
         <div className='lg:w-1/2 py-6'>
           <div class="mb-4">
