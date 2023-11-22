@@ -4,6 +4,7 @@ import { Link} from 'react-scroll';
 import Counter from '../Counter';
 import KeyFeatures from './KeyFeatures';
 import HowWork from './HowWork';
+import Solution from './Solution';
 
 const Landing1 = () => {
   return (
@@ -74,6 +75,10 @@ const Landing1 = () => {
 
       <div>
         <HowWork/>
+      </div>
+
+      <div>
+        <Solution/>
       </div>
     </>
 
