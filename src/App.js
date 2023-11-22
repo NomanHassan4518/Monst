@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing1 from "./Components/Home/Landing1";
 import Navbar from "./Components/Navbar";
 import Loader from "./Components/Loader";
+import Footer from "./Components/Footer";
 
 function App() {
   let [loading, setLoading] = useState(true);
@@ -51,6 +52,7 @@ function App() {
             <Route path="/" element={<Landing1 />}></Route>
             {/* <Route path="/#key-features" element={<KeyFeatures />}></Route> */}
           </Routes>
+          <Footer/>
         </BrowserRouter>
       )}
     </div>

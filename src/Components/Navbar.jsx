@@ -24,9 +24,9 @@ const Navbar = () => {
         <div className={` mt-4  w-full lg:px-24 py-5 ${navbarColor} `}>
            
                     <div className='flex justify-between items-center'>
-                        <div>
+                        <Link to="/">
                             <img className='h-10' src="https://monst-nextjs.vercel.app/assets/imgs/logos/monst-logo.svg" alt="" />
-                        </div>
+                        </Link>
 
                         <div>
                             <nav>

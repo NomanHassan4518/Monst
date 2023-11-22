@@ -36,6 +36,24 @@
   line-height: 68px !important;
 }
 
+/* .custom-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.custom-dot:active {
+  background-color: #fff;
+} */
+
+.text-blueGray-400{
+  color: #94a3b8;
+}
+
 
 @keyframes mover {
   0% {
