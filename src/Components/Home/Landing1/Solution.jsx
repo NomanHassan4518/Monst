@@ -53,14 +53,6 @@ const Solution = () => {
         //   customPaging: (i) => <CustomDots key={i} />,
     };
 
-    // const CustomDots = ({ index, onClick, active }) => (
-    //     <div
-    //         className={`custom-dot ${active ? 'active' : ''}`}
-    //         onClick={() => onClick(index)}
-    //     ></div>
-    // );
-
-
     const nextSlide = () => {
         if (sliderRef.current) {
             sliderRef.current.slickNext();
@@ -72,6 +64,13 @@ const Solution = () => {
             sliderRef.current.slickPrev();
         }
     };
+
+      // const CustomDots = ({ index, onClick, active }) => (
+    //     <div
+    //         className={`custom-dot ${active ? 'active' : ''}`}
+    //         onClick={() => onClick(index)}
+    //     ></div>
+    // );
 
     // const goToSlide = (index) => {
     //     if (sliderRef.current) {

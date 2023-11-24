@@ -9,7 +9,6 @@ const Counter = () => {
         <div className='mx-20'>
             <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
                 <div className='flex justify-between items-center space-x-6'>
-                    
                     <div className="flex items-center justify-center space-x-4 transition-transform transform hover:translate-y-[-4px]">
                         <div className='w-20 h-20 rounded-xl text-blue-500 bg-[#f8fafc] flex items-center justify-center py-4'>
                         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
@@ -17,7 +16,7 @@ const Counter = () => {
                         <div className=''>
                         <span className='text-[#94a3b8] text-lg'>
                             <p className='text-2xl font-bold text-black font-heading'>
-                               + {counterState && <CountUp start={0} end={950} duration={2} delay={0} />}
+                               + {counterState && <CountUp start={0} end={950} duration={3} delay={0} />}
                             </p>
                             Annual Partner
                         </span>
@@ -31,7 +30,7 @@ const Counter = () => {
                         <div className=''>
                         <span className='text-[#94a3b8] text-lg'>
                             <p className='text-2xl font-bold text-black font-heading'>
-                               + {counterState && <CountUp start={0} end={58} duration={2} delay={0} />} K
+                               + {counterState && <CountUp start={0} end={58} duration={3} delay={0} />} K
                             </p>
                            Completed Projects
                         </span>
@@ -45,7 +44,7 @@ const Counter = () => {
                         <div className=''>
                         <span className='text-[#94a3b8] text-lg'>
                             <p className='text-2xl font-bold text-black font-heading'>
-                               + {counterState && <CountUp start={0} end={500} duration={2} delay={0} />}
+                               + {counterState && <CountUp start={0} end={500} duration={3} delay={0} />}
                             </p>
                             Happy Customers
                         </span>
@@ -59,7 +58,7 @@ const Counter = () => {
                         <div className=''>
                         <span className='text-[#94a3b8] text-lg'>
                             <p className='text-2xl font-bold text-black font-heading'>
-                               + {counterState && <CountUp start={0} end={300} duration={2} delay={0} />}
+                               + {counterState && <CountUp start={0} end={300} duration={3} delay={0} />}
                             </p>
                             Research Work
                         </span>
