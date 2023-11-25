@@ -2,7 +2,7 @@ import React from 'react'
 
 const KeyFeatures = () => {
   return (
-    <section id='key-features' className='mt-32 px-20 '>
+    <section id='key-features' className='mt-32 lg:px-20 px-4 '>
       <div className="flex flex-wrap lg:flex-nowrap">
         <div className='lg:w-1/2 py-6'>
           <div class="mb-4">
@@ -44,10 +44,10 @@ const KeyFeatures = () => {
           </div>
         </div>
 
-        <div className='relative lg:w-1/2 '>
+        <div className='relative lg:w-1/2 lg:mt-0 mt-6'>
           <img className='absolute top-0 left-0 -mt-12 -ml-12 w-40' src="https://monst-nextjs.vercel.app/assets/imgs/elements/blob-tear.svg" alt="" />
           <img className='relative mx-auto w-full z-10 loader' src="https://monst-nextjs.vercel.app/assets/imgs/placeholders/img-1.png" alt="" />
-          <img className='absolute bottom-0 right-0 -mr-12 -mb-12 w-40' src="https://monst-nextjs.vercel.app/assets/imgs/elements/blob-tear.svg" alt="" />
+          <img className='absolute bottom-0 right-0 mr-1 lg:-mb-2 xl:-mb-12 -mb-12 w-40' src="https://monst-nextjs.vercel.app/assets/imgs/elements/blob-tear.svg" alt="" />
         </div>
       </div>
     </section>

@@ -54,6 +54,18 @@
   color: #94a3b8;
 }
 
+.ant-drawer-header-title{
+  flex-direction: row-reverse;
+
+}
+
+.ant-drawer-close{
+  color: #94a3b8;
+}
+
+.solution{
+  line-height: 56px;
+}
 
 @keyframes mover {
   0% {

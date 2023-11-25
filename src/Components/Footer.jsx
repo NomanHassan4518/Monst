@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <section className="py-20">
+        <div className="">
             <div className="container px-4 mx-auto">
                 <div className="flex flex-wrap mb-12 lg:mb-20 -mx-3 text-center lg:text-left">
                     <div className="w-full lg:w-1/5 px-3 mb-6 lg:mb-0">
@@ -24,7 +24,7 @@ const Footer = () => {
                         <p className="lg:text-xl text-blueGray-400">contact@monst.com</p>
                     </div>
                 </div>
-                <div className="flex flex-col lg:flex-row items-center lg:justify-between">
+                <div className="flex flex-col lg:flex-row text-center items-center lg:justify-between">
                     <p className=" text-blueGray-400 text-lg">© 2022. All rights reserved. Designed by <Link className="text-blue-400 " to="https://alithemes.com" target="_blank">Alithemes.com</Link></p>
                     <div className="order-first lg:order-last -mx-2 mb-4 lg:mb-0">
                         <Link className="inline-block px-2" to="https://facebook.com">
@@ -39,7 +39,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

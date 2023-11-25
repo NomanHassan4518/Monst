@@ -22,19 +22,19 @@ const HowWork = () => {
         },
     ]
     return (
-        <section id='work' className='mt-24 px-20 py-16 bg-[#f8fafc] '>
-            <div className="grid grid-cols-2 gap-5 ">
-                <h1 className='text-4xl font-bold font-heading leading-normal '>
-                    We are <span className='text-blue-600'> awesome team </span> <br />
+        <section id='work' className='mt-24 xl:px-20 px-4 py-16 bg-[#f8fafc] '>
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 ">
+                <h1 className='lg:text-4xl text-3xl font-bold font-heading leading-normal '>
+                    We are <span className='text-blue-600  max-w-lg mx-auto'> awesome team </span> <br />
                     for your business dream
                 </h1>
                 <p className='text-[#94a3b8]  text-lg '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
             </div>
 
-            <div className="grid grid-cols-3 gap-5 mt-12">
+            <div className="grid grid-cols-12  gap-5 mt-12">
                 {
                     team.map((item, index) => (
-                        <div key={index} className='bg-white px-12 py-14 flex flex-col items-center justify-center rounded-xl shadow-lg transition-transform transform hover:translate-y-[-8px] ease-in-out duration-500'>
+                        <div key={index} className={`bg-white lg:col-span-4 col-span-12 ${index===2?"md:col-span-12":"md:col-span-6"} w-full px-12 py-14 flex flex-col items-center text-center justify-center rounded-xl shadow-lg transition-transform transform hover:translate-y-[-8px] ease-in-out duration-500`}>
                             <p className='text-lg font-bold font-heading bg-blue-200 flex items-center justify-center text-blue-800 w-12 h-12 rounded-full'>{item.number}</p>
                             <img src={item.img} className='my-5 h-36' alt="" />
                             <h1 className='text-2xl font-bold mt-3'>{item.name}</h1>
