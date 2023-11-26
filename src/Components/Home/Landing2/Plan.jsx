@@ -13,9 +13,9 @@ const Plan = () => {
                         </h2>
                         <p className='text-blueGray-400 text-lg'>Great Things In Business Are Never Done <br /> By One Personp</p>
 
-                        <div className="mt-6">
+                        <div className="mt-8">
 
-                            <div className="flex items-center justify-center space-x-4">
+                            <div className="flex md:flex-row flex-col items-center justify-center md:space-x-4 space-x-0 md:space-y-0 space-y-5">
                                 <div class="flex items-center justify-center">
                                     <input id="link-radio" type="radio" value="" class="w-4 h-4 text-white bg-gray-100 focus:border-none focus:text-blue-600 focus:ring-blue-500 dark:focus:ring-blue-600 " />
                                     <label for="link-radio" class="ms-4 text-lg font-medium text-gray-900 dark:text-gray-300">Monthly Billing <button class="bg-blue-600 text-white font-bold py-2 px-2 rounded">$59
@@ -23,7 +23,7 @@ const Plan = () => {
                                     </label>
                                 </div>
 
-                                <div class="flex items-center justify-center mt-7">
+                                <div class="flex items-center justify-center ">
                                     <input id="link-radio" type="radio" value="" class="w-4 h-4 text-white bg-gray-100 focus:border-none focus:text-blue-600 focus:ring-blue-500 dark:focus:ring-blue-600 " />
                                     <label for="link-radio" class="ms-4 text-lg font-medium text-gray-900 dark:text-gray-300">Annual Billing <button class="bg-blue-600 text-white font-bold py-2 px-2 rounded">$99
                                     </button>
@@ -35,8 +35,8 @@ const Plan = () => {
                 </div>
             </div>
 
-            <div className='-mt-44 xl:px-20 px-4 grid grid-cols-12 mb-20'>
-                <div className="col-span-5 rounded shadow bg-white py-10 px-12 text-center">
+            <div className='lg:-mt-44 -mt-16 xl:px-20 px-4 grid grid-cols-12 mb-20'>
+                <div className="lg:col-span-5 col-span-12 rounded shadow bg-white py-10 px-12 text-center">
                     <p className='text-lg text-blueGray-400'>Sign In</p>
                     <p className='text-2xl mb-6'>Setup your payment</p>
                     <div className='flex items-center justify-between bg-[#f1f5f9] px-3 rounded'>
@@ -58,7 +58,7 @@ const Plan = () => {
                     <button class="block w-full p-4 text-center text-xs text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" fdprocessedid="3hoqfm">Purchase now</button>
                 </div>
 
-                <div className='col-span-7 relative bg-blue-500 shadow  py-10 px-4 rounded-r'>
+                <div className='lg:col-span-7 col-span-12 relative bg-blue-500 shadow  py-10 px-4 rounded-r'>
                     <div class="max-w-sm px-12 pt-2 pb-12">
                         <span class="text-xs text-blue-200">Various Analysis Options</span>
                         <h3 class="mb-4 text-4xl font-bold font-heading text-white leading-normal">Techno Provides Realtime Best Data Solutions.</h3>
