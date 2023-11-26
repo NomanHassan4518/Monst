@@ -180,7 +180,7 @@ const Navbar = () => {
                         </li>
 
                         <ul className={`${dropdown} px-4 space-y-4`}>
-                            <li>Home 1</li>
+                            <li><Link to="/index-2"></Link></li>
                             <li>Home 2</li>
                             <li>Home 3</li>
                             <li>Home 4</li>
