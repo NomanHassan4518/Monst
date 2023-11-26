@@ -31,6 +31,7 @@ const Navbar = () => {
 
     let drawerClose=()=>{
         setIsOpen(false)
+        setDropDown("hidden")
     }
 
     let showDropdown=()=>{
@@ -168,19 +169,19 @@ const Navbar = () => {
                 open={isOpen}
                 onClose={drawerClose}
                 placement='left'
-                width={250}
+                width={300}
             >
                 <div className="px-5 text-lg font-light text-[#64748b]">
                     <ul className='space-y-7'>
                         <li className="flex justify-between items-center ">
-                            <Link to="/">Home</Link>
+                            <Link to="/" onClick={drawerClose}>Home</Link>
                             <button className='mt-1' onClick={showDropdown}>{
                                 dropdown==="hidden"?<BsPlus />: <IoIosClose />
                             }</button>
                         </li>
 
                         <ul className={`${dropdown} px-4 space-y-4`}>
-                            <li><Link to="/index-2"></Link></li>
+                            <li><Link to="/index-2" onClick={drawerClose}>Home 1</Link></li>
                             <li>Home 2</li>
                             <li>Home 3</li>
                             <li>Home 4</li>
