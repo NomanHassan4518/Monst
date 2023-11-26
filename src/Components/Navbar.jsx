@@ -44,7 +44,7 @@ const Navbar = () => {
     let title=<img className='h-10  absolute left-3 top-1' src='https://monst-nextjs.vercel.app/assets/imgs/logos/monst-logo.svg' alt=''></img>
 
     return (
-        <div className={` mt-4  w-full xl:px-24 lg:py-5 py-2 px-4 ${navbarColor} `}>
+        <div className={` mt-4  w-full xl:px-24 py-5 px-4 ${navbarColor} `}>
 
             <div className='flex justify-between items-center'>
                 <Link to="/">
@@ -57,14 +57,14 @@ const Navbar = () => {
                             <ul className="flex space-x-10">
                                 <li className="relative group">
                                     <Link to='/' className="text-[17px] font-semibold text-[#475569] hover:text-[#616e80]">Home •</Link>
-                                    <div className="absolute hidden group-hover:block  py-4 w-[12rem]">
+                                    <div className="absolute hidden  py-4 w-[12rem] transition-transform transform translate-y-[12px] group-hover:translate-y-0 duration-1000 group-hover:block ">
                                         <ul className='border border-gray-200 bg-white rounded-lg space-y-4 text-gray-400 px-5 py-2 '>
                                             <li className="">
                                                 <Link to="/" className='mt-4'>Landing Page 1</Link>
                                             </li>
 
                                             <li className="">
-                                                <Link to="/">Landing Page 2</Link>
+                                                <Link to="/index-2">Landing Page 2</Link>
                                             </li>
                                             <li className="">
                                                 <Link to="/">Landing Page 3</Link>

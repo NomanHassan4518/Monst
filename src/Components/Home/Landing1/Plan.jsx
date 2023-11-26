@@ -46,9 +46,6 @@ const Plan = () => {
                         </h2>
                         <p className='text-blueGray-400 text-lg'>Best for freelance developers who need to <br /> save their time</p>
                     </div>
-
-
-
                 </div>
 
             </div>

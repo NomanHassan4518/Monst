@@ -1,11 +1,11 @@
 import React from 'react'
 import { Typewriter } from "react-simple-typewriter";
 import { Link} from 'react-scroll';
-import Counter from '../Counter';
-import KeyFeatures from './Landing1/KeyFeatures';
-import HowWork from './Landing1/HowWork';
-import Solution from './Landing1/Solution';
-import Plan from './Landing1/Plan';
+import Counter from '../../Counter';
+import KeyFeatures from './KeyFeatures';
+import HowWork from './HowWork';
+import Solution from './Solution';
+import Plan from './Plan';
 
 const Landing1 = () => {
   return (

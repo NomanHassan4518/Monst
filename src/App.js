@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Landing1 from "./Components/Home/Landing1";
+import Landing1 from "./Components/Home/Landing1/Landing1";
 import Navbar from "./Components/Navbar";
 import Loader from "./Components/Loader";
 import Footer from "./Components/Footer";
+import Landing2 from "./Components/Home/Landing2/Landing2";
 
 function App() {
   let [loading, setLoading] = useState(true);
@@ -50,6 +51,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Landing1 />}></Route>
+            <Route path="/index-2" element={<Landing2 />}></Route>
             {/* <Route path="/#key-features" element={<KeyFeatures />}></Route> */}
           </Routes>
           <Footer/>
