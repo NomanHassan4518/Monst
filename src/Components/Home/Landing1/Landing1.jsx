@@ -13,7 +13,7 @@ const Landing1 = () => {
       <div className=' w-[100%] -mt-24 mb-8'>
         <div className="bg-top  w-full bg-contain" style={{ width: "100%", backgroundImage: `url("https://monst-nextjs.vercel.app/assets/imgs/backgrounds/intersect.svg")`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat", }}>
           <div className=" mx-auto max-w-screen-xl text-center py-28 ">
-            <h1 className="mb-4 mt-8 lg:text-5xl font-heading lg:lineheight leading-normal  font-bold  text-black text-3xl "> Committed to People <br /> Committed <span className='text-blue-500'>to the Future</span></h1>
+            <h1 className="mb-4 mt-8 lg:text-5xl font-heading lineheight  font-bold  text-black text-3xl "> Committed to People <br /> Committed <span className='text-blue-500'>to the Future</span></h1>
             <div className="mb-3  text-lg font-normal text-[#94a3b8] lg:text-xl sm:px-16 lg:px-48">We are <span className='text-blue-500 font-bold'>Monst</span>, a Creative Design</div>
             <div className="text-[#94a3b8] text-lg mb-8">
               <h1 style={{ margin: "auto 0", fontWeight: "normal" }}>

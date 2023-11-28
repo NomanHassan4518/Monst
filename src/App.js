@@ -5,6 +5,8 @@ import Navbar from "./Components/Navbar";
 import Loader from "./Components/Loader";
 import Footer from "./Components/Footer";
 import Landing2 from "./Components/Home/Landing2/Landing2";
+import Landing3 from "./Components/Home/Landing3/Landing3";
+import Landing4 from "./Components/Home/Landing4/Landing4";
 
 function App() {
   let [loading, setLoading] = useState(true);
@@ -52,6 +54,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Landing1 />}></Route>
             <Route path="/index-2" element={<Landing2 />}></Route>
+            <Route path="/index-3" element={<Landing3 />}></Route>
+            <Route path="/index-4" element={<Landing4 />}></Route>
             {/* <Route path="/#key-features" element={<KeyFeatures />}></Route> */}
           </Routes>
           <Footer/>

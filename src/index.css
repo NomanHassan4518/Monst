@@ -40,6 +40,10 @@
   line-height: 60px !important;
 }
 
+.lineheight2{
+  line-height: 48px !important;
+}
+
 .homebgColor{
   background-color: #f1f5f9;
 }
@@ -106,6 +110,10 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 1023px) {
+  .lineheight{
+    line-height: 43px !important;
+  }
+
   .lineheight1{
     line-height: 43px !important;
   }

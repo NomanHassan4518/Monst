@@ -110,7 +110,7 @@ const Plan = () => {
                         <input className='w-full bg-[#f1f5f9] border-none focus:ring-0 focus:outline-none  font-semibold text-blueGray-400' type="email" placeholder='Type your e-mail'/>
                         </div>
 
-                        <button className='p-3 px-4 w-full font-semibold text-xl text-white bg-blue-500 rounded'>Sign Up</button>
+                        <button className='p-3 px-4 md:w-32 w-full font-semibold text-xl text-white bg-blue-500 rounded'>Sign Up</button>
                     </div>
                 </div>
             </div>
