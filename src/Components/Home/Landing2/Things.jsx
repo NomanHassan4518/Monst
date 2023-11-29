@@ -41,19 +41,19 @@ const Things = () => {
                     {
                         things.map((item, index) => (
                             <ul key={index} className={`space-y-12 ${index>0?"mt-7":"lg:mt-1 mt-12"}`}>
-                             <li class="flex -mx-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                            <div class="px-4">
-                                <span class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">{item.number}</span>
+                             <li className="flex -mx-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                            <div className="px-4">
+                                <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">{item.number}</span>
                                 </div>
-                                <div class="px-4">
-                                    <h3 class="my-4 text-xl font-semibold">{item.name}</h3>
-                                    <p class="text-blueGray-400 leading-loose">{item.desc}</p>
+                                <div className="px-4">
+                                    <h3 className="my-4 text-xl font-semibold">{item.name}</h3>
+                                    <p className="text-blueGray-400 leading-loose">{item.desc}</p>
                                     </div>
                                     </li>
                             </ul>
                         ))
                     }
-                    <ul class="">
+                    <ul className="">
                        
                                    </ul>
                 </div>

@@ -4,6 +4,7 @@ import Business from '../Landing3/Business '
 import Plan from '../Landing2/Plan'
 import Home from './Home'
 import KeyFeatures from './KeyFeatures'
+import InTeach from './InTeach'
 
 const Landing4 = () => {
   return (
@@ -25,7 +26,11 @@ const Landing4 = () => {
       </div>
 
       <div>
-        <Plan/>
+        <Plan/> 
+      </div>
+
+      <div>
+        <InTeach/>
       </div>
     </div>
   )

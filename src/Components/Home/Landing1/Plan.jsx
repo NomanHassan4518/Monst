@@ -7,7 +7,7 @@ const Plan = () => {
             img: "https://monst-nextjs.vercel.app/assets/imgs/icons/startup.svg",
             name: "Startup",
             price: "$45.99",
-            icon: <svg class="w-6 h-6 mr-2 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>,
+            icon: <svg className="w-6 h-6 mr-2 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>,
             li1: "3 Emails",
             li2: "1 Datebases",
             li3: "Unlimited Domains",
@@ -17,7 +17,7 @@ const Plan = () => {
             img: "https://monst-nextjs.vercel.app/assets/imgs/icons/startup.svg",
             name: "Startup",
             price: "$45.99",
-            icon: <svg class="w-6 h-6 mr-2 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>,
+            icon: <svg className="w-6 h-6 mr-2 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>,
             li1: "3 Emails",
             li2: "1 Datebases",
             li3: "Unlimited Domains",
@@ -27,7 +27,7 @@ const Plan = () => {
             img: "https://monst-nextjs.vercel.app/assets/imgs/icons/startup.svg",
             name: "Startup",
             price: "$45.99",
-            icon: <svg class="w-6 h-6 mr-2 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>,
+            icon: <svg className="w-6 h-6 mr-2 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>,
             li1: "3 Emails",
             li2: "1 Datebases",
             li3: "Unlimited Domains",
@@ -106,7 +106,7 @@ const Plan = () => {
 
                     <div className="flex items-center justify-center md:space-x-5 md:space-y-0 space-y-6 md:flex-row flex-col  bg-white p-4 rounded-lg mt-9 max-w-lg mx-auto">
                         <div className="flex bg-[#f1f5f9] rounded px-3 ">
-                        <svg class="h-6 w-6 my-auto text-blueGray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                        <svg className="h-6 w-6 my-auto text-blueGray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
                         <input className='w-full bg-[#f1f5f9] border-none focus:ring-0 focus:outline-none  font-semibold text-blueGray-400' type="email" placeholder='Type your e-mail'/>
                         </div>
 
