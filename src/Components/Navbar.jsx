@@ -74,8 +74,9 @@ const Navbar = () => {
                                                 <Link to="/index-4">Landing Page 4</Link>
                                             </li>
                                             <li className="">
-                                                <Link to="/">Landing Page 5</Link>
+                                                <Link to="/index-5">Landing Page 5</Link>
                                             </li>
+                                           
 
                                         </ul>
                                     </div>
@@ -181,12 +182,11 @@ const Navbar = () => {
                         </li>
 
                         <ul className={`${dropdown} px-4 space-y-4 marker:`}>
-                            <li><Link to="/index-2" onClick={drawerClose}>Home 1</Link></li>
-                            <li><Link to="/index-3" onClick={drawerClose}>Home 2</Link></li>
+                            <li><Link to="/" onClick={drawerClose}>Home 1</Link></li>
+                            <li><Link to="/index-2" onClick={drawerClose}>Home 2</Link></li>
                             <li><Link to="/index-3" onClick={drawerClose}>Home 3</Link></li>
                             <li><Link to="/index-4" onClick={drawerClose}>Home 4</Link></li>
-                            <li>Home 4</li>
-                            <li>Home 5</li>
+                            <li><Link to="/index-5" onClick={drawerClose}>Home 5</Link></li>
                         </ul>
 
                         <li>
