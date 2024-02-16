@@ -24,7 +24,7 @@ const Business = () => {
         },
     ]
     return (
-        <div className='xl:px-20 px-4 py-20'>
+        <section id='key-features' className='xl:px-20 px-4 py-20'>
             <div className="grid lg:grid-cols-2 grid-cols-1">
                 <div className='max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left lg:pr-12'>
                     <h1 className='lg:text-4xl text-3xl font-bold font-heading lineheight1'>Saas Solutions for
@@ -48,7 +48,7 @@ const Business = () => {
                     ))
                 }
             </div>
-        </div>
+        </section>
     )
 }
 

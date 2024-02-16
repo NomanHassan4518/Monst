@@ -5,9 +5,9 @@ import { Link } from 'react-scroll';
 const Home = () => {
     return (
         <div className='w-full -mt-24  '>
-            <div className="bg-top  w-full bg-contain " style={{ width: "100%", backgroundImage: `url("https://monst-nextjs.vercel.app/assets/imgs/backgrounds/intersect.svg")`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat", }}>
-                <div className='relative text-center  py-10 '>
-                    <div className='hidden md:block absolute top-0 left-0 mt-32'>
+            <div className="bg-top  w-full bg-contain border-2 border-red-500" style={{ width: "100%", backgroundImage: `url("https://monst-nextjs.vercel.app/assets/imgs/backgrounds/intersect.svg")`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat" }}>
+                <div className=' text-center border-2 border-red-500  py-10 '>
+                    <div className='hidden md:block absolute top-0 left-0 mt-32 '>
                         <img className='h-64 lg:h-80 loader' src="https://monst-nextjs.vercel.app/assets/imgs/illustrations/at_the_park.svg" alt="" />
                     </div>
                     <div className='hidden md:block absolute right-0 top-0 mt-32'>

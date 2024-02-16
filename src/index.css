@@ -23,6 +23,11 @@
   }
 }
 
+/* .font{
+  font-family: Poppins,sans-serif!important;
+
+} */
+
 .loader {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 1s infinite alternate;

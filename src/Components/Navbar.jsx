@@ -83,12 +83,12 @@ const Navbar = () => {
                                 </li>
 
                                 <li>
-                                    <Link to='/' className="text-[17px] font-semibold text-[#475569] hover:text-[#616e80]">About Us</Link>
+                                    <Link to='/about' className="text-[17px] font-semibold text-[#475569] hover:text-[#616e80]">About Us</Link>
                                 </li>
 
 
                                 <li>
-                                    <Link to='/' className="text-[17px] font-semibold text-[#475569] hover:text-[#616e80]">Services</Link>
+                                    <Link to='/services' className="text-[17px] font-semibold text-[#475569] hover:text-[#616e80]">Services</Link>
                                 </li>
 
 
@@ -97,19 +97,22 @@ const Navbar = () => {
                                     <div className="absolute hidden group-hover:block  py-4 w-[12rem]">
                                         <ul className='border border-gray-200 bg-white rounded-lg space-y-4 text-gray-400 px-5 py-2 '>
                                             <li className="">
-                                                <Link to="/" className='mt-4'>Landing Page 1</Link>
+                                                <Link to="/portfolio" className='mt-4'>Portfolio</Link>
                                             </li>
                                             <li className="">
-                                                <Link to="/">Landing Page 1</Link>
+                                                <Link to="/">Team</Link>
                                             </li>
                                             <li className="">
-                                                <Link to="/">Landing Page 1</Link>
+                                                <Link to="/">Testimonials</Link>
                                             </li>
                                             <li className="">
-                                                <Link to="/">Landing Page 1</Link>
+                                                <Link to="/">Pricing</Link>
                                             </li>
                                             <li className="">
-                                                <Link to="/">Landing Page 1</Link>
+                                                <Link to="/">Faqs</Link>
+                                            </li>
+                                            <li className="">
+                                                <Link to="/">404</Link>
                                             </li>
 
                                         </ul>
@@ -190,11 +193,11 @@ const Navbar = () => {
                         </ul>
 
                         <li>
-                            <Link to="">About Us</Link>
+                            <Link to="/about" onClick={drawerClose}>About Us</Link>
                         </li>
 
                         <li>
-                            <Link to="">Services</Link>
+                            <Link to="/services" onClick={drawerClose}>Services</Link>
                         </li>
 
                         <li>

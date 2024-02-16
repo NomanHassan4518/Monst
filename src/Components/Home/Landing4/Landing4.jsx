@@ -9,28 +9,28 @@ import InTeach from './InTeach'
 const Landing4 = () => {
   return (
     <div>
-        <div>
-            <Home/>
-        </div>
-
-<div>
-    <KeyFeatures/>
-</div>
-
       <div>
-        <HowWork/>
+        <Home />
       </div>
 
       <div>
-        <Business/>
+        <KeyFeatures />
       </div>
 
       <div>
-        <Plan/> 
+        <HowWork />
       </div>
 
       <div>
-        <InTeach/>
+        <Business />
+      </div>
+
+      <div>
+        <Plan />
+      </div>
+
+      <div>
+        <InTeach />
       </div>
     </div>
   )

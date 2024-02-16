@@ -44,7 +44,7 @@ const Solution = () => {
         }
     };
     return (
-        <div className='xl:px-20 px-4 py-20'>
+        <section  className='xl:px-20 px-4 py-20'>
             <div className="grid grid-cols-12 gap-5">
                 <div className='lg:col-span-4 col-span-12 '>
                     <div className='max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left lg:pr-10 px-3'>
@@ -76,7 +76,7 @@ const Solution = () => {
                 </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

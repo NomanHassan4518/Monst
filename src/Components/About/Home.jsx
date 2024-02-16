@@ -4,12 +4,12 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
    
-  return (
-    <div className=''>
+    return (
+        <div className='mb-20'>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-2">
-                <div className=' pt-20 xl:px-20 px-4 ' >
+                <div className='lg:pt-40 pt-28 xl:px-20 px-4 ' >
                     <div className='max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left'>
-                        <h1 className='lg:text-5xl text-3xl font-bold font-heading lineheight  mb-4'>Exclusive Agency For <span className='text-blue-500'>Technology</span> Provide Solution</h1>
+                        <h1 className='lg:text-5xl text-3xl font-bold font-heading lineheight1  mb-4'>Committed to <span className='text-blue-500'>People</span> and the future</h1>
                         <div className='text-blueGray-400 text-lg'>
                             <h1>We are <span className='text-blue-500 font-semibold'>Monst</span>, a Creative Design </h1>
                             <p>
@@ -27,16 +27,17 @@ const Home = () => {
                             <p className="mt-4 text-[16px]">Helping you maximize operations management with digitization</p>
                         </div>
 
-                        <div className='w-full flex md:flex-row flex-col items-center mt-16 md:space-x-2 md:space-y-0 space-y-5 text-sm '>
-                        <button className=' transition-transform transform hover:translate-y-[-2px] duration-500'>
+                        <div className='w-full flex md:flex-row flex-col items-center mt-16 md:space-x-2 md:space-y-0 space-y-10 text-sm '>
+                           
+                            <button className=' transition-transform transform hover:translate-y-[-2px] duration-500'>
                                 <Link
                                     to='key-features'
                                     smooth={true}
                                     offset={50}
                                     duration={3000}
-                                    className='w-full py-3 px-8 rounded font-bold bg-blue-500 hover:bg-blue-600 text-white'
+                                    className='w-full py-3 px-8 rounded font-bold bg-blue-400 hover:bg-blue-500 text-white'
                                 >
-                                   Key Features
+                                   Our Services
                                 </Link>
                                
                             </button>
@@ -58,12 +59,12 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className={` w-full px-5 lg:pt-28 pt-4 pb-16`}>
-                    <img src="https://monst-nextjs.vercel.app/assets/imgs/illustrations/work-tv.png" alt="" />
+                <div className={`homebgColor w-full px-12 lg:pt-36 pt-4 pb-16`}>
+                    <img src='https://monst-nextjs.vercel.app/assets/imgs/illustrations/team.svg' alt="" />
                 </div>
             </div>
         </div>
-  )
+    )
 }
 
 export default Home

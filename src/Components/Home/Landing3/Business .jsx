@@ -45,7 +45,7 @@ const Plan = () => {
 ]
   return (
     <div>
-      <div className='py-20 mt-20 bg-center bg-no-repeat bg-cover' style={{ backgroundImage: `url("https://monst-nextjs.vercel.app/assets/imgs/backgrounds/intersect.svg")`, width: "100%", height: "35rem" }}>
+      <section id='key-features' className='py-20 mt-20 bg-center bg-no-repeat bg-cover' style={{ backgroundImage: `url("https://monst-nextjs.vercel.app/assets/imgs/backgrounds/intersect.svg")`, width: "100%", height: "35rem" }}>
         <div className='px-4 mx-auto'>
           <div className='text-center mb-16'>
             <h2 className=" mx-auto max-w-lg mb-4 text-4xl font-bold font-heading leading-normal">
@@ -58,7 +58,7 @@ const Plan = () => {
 
           </div>
         </div>
-      </div>
+      </section>
 
       <div className='lg:-mt-44 -mt-16 xl:px-20 px-4  mb-20'>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 mt-12 lg:mt-5">

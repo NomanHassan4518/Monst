@@ -4,7 +4,6 @@ import { Link } from 'react-scroll';
 
 const Home = (props) => {
     let data = props.data
-    console.log(data);
     return (
         <div className=''>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-2">
@@ -28,17 +27,28 @@ const Home = (props) => {
                             <p className="mt-4 text-[16px]">Helping you maximize operations management with digitization</p>
                         </div>
 
-                        <div className='w-full flex md:flex-row flex-col items-center mt-16 md:space-x-2 md:space-y-0 space-y-5 text-sm '>
-                            <button className=' w-full py-3 px-8 rounded font-bold bg-blue-400 hover:bg-blue-500 text-white transition-transform transform hover:translate-y-[-2px] '>
-                                <Link className='w-full  py-3 px-8 ' to="/">Key Features</Link>
-                            </button>
-                            <button className='w-full  py-3 px-8 rounded font-bold border border-gray-200 hover:border-gray-300 bg-white text-blueGray-400 transition-transform transform hover:translate-y-[-2px] duration-500'>
+                        <div className='w-full flex md:flex-row flex-col items-center mt-16 md:space-x-2 md:space-y-0 space-y-10 text-sm '>
+                           
+                            <button className=' transition-transform transform hover:translate-y-[-2px] duration-500'>
                                 <Link
-                                    to='work'
-                                    className=' '
+                                    to='key-features'
                                     smooth={true}
                                     offset={50}
                                     duration={3000}
+                                    className='w-full py-3 px-8 rounded font-bold bg-blue-400 hover:bg-blue-500 text-white'
+                                >
+                                   Key Features
+                                </Link>
+                               
+                            </button>
+
+                            <button className=' transition-transform transform hover:translate-y-[-2px] duration-500'>
+                            <Link
+                                    to='work'
+                                    smooth={true}
+                                    offset={50}
+                                    duration={3000}
+                                    className='w-full  py-3 px-8 rounded font-bold border border-gray-200 hover:border-gray-300 bg-white text-blueGray-400 '
                                 >
                                     How we work?
                                 </Link>

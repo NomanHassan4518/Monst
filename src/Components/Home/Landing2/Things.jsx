@@ -20,7 +20,7 @@ const Things = () => {
         },
     ]
     return (
-        <div className='xl:px-20 px-4 py-20'>
+        <section id='work' className='xl:px-20 px-4 py-20'>
             <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-12">
                 <div className='pb-8 lg:border-none border-b-2 border-black'>
                     <div className='max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left lg:pr-10'>
@@ -58,7 +58,7 @@ const Things = () => {
                                    </ul>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
