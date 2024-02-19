@@ -5,7 +5,7 @@ const Project = () => {
         <div>
             <div className='flex items-center justify-center flex-col max-w-lg mx-auto mb-12 text-center'>
                 <p className='bg-blue-100 text-sm font-semibold text-blue-600 py-1 px-3 rounded-full'>Our Projects</p>
-                <h1 className='lg:text-4xl text-2xl font-bold text-center font-heading mb-4 mt-2' style={{ lineHeight: "50px" }}>
+                <h1 className='lg:text-4xl text-2xl font-bold text-center font-heading mb-4 mt-2 md:!leading-normal' >
                     Check Out <br />
                     Our <span className='text-blue-500'>Latest</span> Project
                 </h1>

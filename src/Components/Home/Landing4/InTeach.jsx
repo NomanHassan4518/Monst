@@ -2,7 +2,7 @@ import React from 'react'
 
 const InTeach = () => {
     return (
-        <section className="py-20">
+        <section className="py-20 px-4">
             <div className="container"><div className="max-w-2xl lg:max-w-3xl mx-auto">
                 <div className="mb-12 text-center">
                     <h2 className="text-4xl font-bold font-heading  " >Get in touch!</h2>
@@ -72,7 +72,7 @@ const InTeach = () => {
                 </div>
                 <div className="flex justify-between items-center">
                     <label>
-                        <input className="mr-1" type="checkbox" name="terms" value="1" />
+                        <input className="mr-1 focus:outline-none focus:border-none focus:text-white" type="checkbox" name="terms" value="1" />
                         <span className="text-sm font-semibold">I agree to terms and conditions.</span>
                     </label>
                     <button className="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" type="submit">Submit</button>

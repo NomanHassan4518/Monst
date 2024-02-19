@@ -100,10 +100,10 @@ const Navbar = () => {
                                                 <Link to="/portfolio" className='mt-4'>Portfolio</Link>
                                             </li>
                                             <li className="">
-                                                <Link to="/">Team</Link>
+                                                <Link to="/team">Team</Link>
                                             </li>
                                             <li className="">
-                                                <Link to="/">Testimonials</Link>
+                                                <Link to="/testimonials">Testimonials</Link>
                                             </li>
                                             <li className="">
                                                 <Link to="/">Pricing</Link>
@@ -201,7 +201,7 @@ const Navbar = () => {
                         </li>
 
                         <li>
-                            <Link to="">Portfolio</Link>
+                            <Link to="/portfolio">Portfolio</Link>
                         </li>
 
                         <li>
@@ -209,7 +209,7 @@ const Navbar = () => {
                         </li>
 
                         <li>
-                            <Link to="">Team</Link>
+                            <Link to="/team">Team</Link>
                         </li>
 
                         <li className="flex justify-between items-center ">
@@ -231,7 +231,7 @@ const Navbar = () => {
                         </li>
 
                         <li>
-                            <Link to="">Testimonial</Link>
+                            <Link to="/testimonials">Testimonial</Link>
                         </li>
 
                         <li>
